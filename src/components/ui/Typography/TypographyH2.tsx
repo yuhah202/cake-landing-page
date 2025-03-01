@@ -4,20 +4,24 @@ import { cn } from "@/lib/utils";
 import { TypoColorType } from "@/helpers/models";
 import { COLORS } from "@/helpers/settings";
 
-interface PropsInterface {
-  color: TypoColorType;
+interface PropsInterface extends React.HTMLAttributes<HTMLHeadingElement> {
+  color?: TypoColorType;
   children: ReactNode;
 }
 
 function TypographyH2({
   children,
   color = TypoColorType.Primary,
+  className = "",
+  ...rest
 }: PropsInterface) {
   return (
     <h2
+      {...rest}
       className={cn(
         COLORS[color],
-        "text-[1.5rem]/[1.4] font-bold sm:text-[1.75rem]/[1.4] md:text-[2rem]/[1.4]"
+        "text-[3rem] max-lg:text-[2.75rem] max-sm:text-[2.125rem] max-md:text-[2.375rem] font-bold leading-[1.2]",
+        className
       )}
     >
       {children}

@@ -1,5 +1,5 @@
 export enum TypoColorType {
-  Primary = "primary",
-  Secondary = "secondary",
-  Neutral = "neutral",
+  Primary = "Primary",
+  Secondary = "Secondary",
+  Neutral = "Neutral",
 }

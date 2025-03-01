@@ -1,18 +1,15 @@
+import { Open_Sans } from "next/font/google";
 import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
 
 import { cn } from "@/lib/utils";
 
 import "./globals.css";
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
+const openSans = Open_Sans({
+  variable: "--font-poppins",
+  weight: ["400", "500", "600", "700"],
   subsets: ["latin"],
-});
-
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
-  subsets: ["latin"],
+  display: "swap",
 });
 
 export const metadata: Metadata = {
@@ -29,9 +26,8 @@ export default function RootLayout({
     <html lang="en">
       <body
         className={cn(
-          geistSans.variable,
-          geistMono.variable,
-          "antialiased bg-background w-full min-h-screen flex flex-col"
+          openSans.variable,
+          "antialiased bg-background w-full min-h-screen h-[2000px]"
         )}
       >
         {children}
