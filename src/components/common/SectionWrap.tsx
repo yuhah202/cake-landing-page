@@ -9,7 +9,7 @@ interface PropsInterface extends React.HTMLAttributes<HTMLElement> {
 function SectionWrap({ children, className = "", ...rest }: PropsInterface) {
   return (
     <section {...rest} className={cn("w-full py-[5rem]", className)}>
-      <div className="container">{children}</div>
+      {children}
     </section>
   );
 }
