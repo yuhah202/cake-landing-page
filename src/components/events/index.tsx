@@ -20,7 +20,7 @@ function Events() {
     <SectionWrap id="su-kien">
       <div className="container w-full flex flex-col items-center gap-4">
         <TypographyH2 className="w-full max-w-[600px] text-center">
-          Lorem ipsum dolor sit amet consectetur adipisicing.
+          Sự kiện
         </TypographyH2>
 
         <Separator className="border-2 max-w-[200px] rounded-full mb-10" />
