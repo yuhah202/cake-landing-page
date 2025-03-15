@@ -1,8 +1,12 @@
 import Image from "next/image";
 import React from "react";
-import { Text, TypographyH1 } from "./ui/Typography";
-import { Button } from "./ui/button";
+import Link from "next/link";
+
 import { TypoColorType } from "@/helpers/models";
+import { cn } from "@/lib/utils";
+
+import { Text, TypographyH1 } from "./ui/Typography";
+import { buttonVariants } from "./ui/button";
 
 function HeroBanner() {
   return (
@@ -16,11 +20,19 @@ function HeroBanner() {
             <span>Lorem, ipsum.</span>
           </TypographyH1>
 
-          <Button className="mt-[80px]">
+          <Link
+            href="https://www.facebook.com/BioTeabreak"
+            target="_blank"
+            rel="nofollow noopener noreferrer"
+            className={cn(
+              buttonVariants({ variant: "default" }),
+              "mt-[80px] py-3 px-6"
+            )}
+          >
             <Text color={TypoColorType.Neutral} size="medium">
               Liên hệ với chúng tôi
             </Text>
-          </Button>
+          </Link>
         </div>
       </div>
     </section>
