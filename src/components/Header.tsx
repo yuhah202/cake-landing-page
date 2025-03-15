@@ -5,7 +5,7 @@ import Link from "next/link";
 import { SOCIALS } from "@/helpers/constants";
 import { TypoColorType } from "@/helpers/models";
 
-import { Button, buttonVariants } from "./ui/button";
+import { buttonVariants } from "./ui/button";
 import { TypographyH3 } from "./ui/Typography";
 import { cn } from "@/lib/utils";
 
