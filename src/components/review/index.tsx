@@ -13,7 +13,7 @@ function ReviewSection() {
     <SectionWrap className="bg-secondary">
       <div className="container w-full flex flex-col items-center gap-10">
         <TypographyH2 className="w-full max-w-[600px] text-center">
-          Lorem ipsum dolor sit amet consectetur adipisicing.
+          Các đánh giá & Đối tác
         </TypographyH2>
 
         <div className="w-full grid grid-cols-3">
