@@ -5,8 +5,9 @@ import Link from "next/link";
 import { SOCIALS } from "@/helpers/constants";
 import { TypoColorType } from "@/helpers/models";
 
-import { Button } from "./ui/button";
+import { Button, buttonVariants } from "./ui/button";
 import { TypographyH3 } from "./ui/Typography";
+import { cn } from "@/lib/utils";
 
 function Header() {
   return (
@@ -30,7 +31,16 @@ function Header() {
 
         <TypographyH3 color={TypoColorType.Primary}>BIO TEABREAK</TypographyH3>
 
-        <Button>Gọi cho chúng tôi: 0123456789</Button>
+        <Link
+          href="tel:+84905123123"
+          title="+84-905-123-123"
+          className={cn(
+            buttonVariants({ variant: "default" }),
+            "inline-flex px-4 py-2"
+          )}
+        >
+          Gọi cho chúng tôi
+        </Link>
       </div>
     </header>
   );

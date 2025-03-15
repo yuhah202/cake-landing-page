@@ -1,3 +1,4 @@
+import { Mails, MapPinHouse, PhoneCall, Store } from "lucide-react";
 import { v4 as uuidv4 } from "uuid";
 
 export const SOCIALS = [
@@ -46,5 +47,32 @@ export const NAVIGATES = [
     id: uuidv4(),
     text: "Về chúng tôi",
     href: "#about-us",
+  },
+];
+
+export const STORE_INFORMATION = [
+  {
+    id: 1,
+    label: "Tên cửa hàng",
+    icon: <Store />,
+    desc: "Bio Teabreak",
+  },
+  {
+    id: 2,
+    label: "Địa chỉ",
+    icon: <MapPinHouse />,
+    desc: "01 Thi Sách, quận Hải Châu, thành phố Đà Nẵng",
+  },
+  {
+    id: 3,
+    label: "Số điện thoại",
+    icon: <PhoneCall />,
+    desc: "+84-905-113-113",
+  },
+  {
+    id: 4,
+    label: "Email",
+    icon: <Mails />,
+    desc: "skeleton1522@gmail.com",
   },
 ];

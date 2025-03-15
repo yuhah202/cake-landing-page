@@ -5,15 +5,15 @@ import Autoplay from "embla-carousel-autoplay";
 import Image from "next/image";
 
 import SectionWrap from "@/components/common/SectionWrap";
-import { Text, TypographyH2, TypographyH5 } from "../Typography";
-import { Separator } from "../separator";
+import { Text, TypographyH2, TypographyH5 } from "../ui/Typography";
+import { Separator } from "../ui/separator";
 import {
   Carousel,
   CarouselContent,
   CarouselItem,
   CarouselNext,
   CarouselPrevious,
-} from "../carousel";
+} from "../ui/carousel";
 
 function Events() {
   return (
