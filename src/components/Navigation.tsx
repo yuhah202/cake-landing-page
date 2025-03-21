@@ -9,7 +9,7 @@ import { Text } from "./ui/Typography";
 function Navigation() {
   return (
     <nav
-      className="sticky top-0 z-[100] w-full bg-foreground"
+      className="sticky top-0 z-[9999] w-full bg-foreground"
       aria-label="Main navigation"
     >
       <ul className="flex justify-center items-center gap-x-4" role="listitem">

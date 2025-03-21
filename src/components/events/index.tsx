@@ -17,7 +17,7 @@ import {
 
 function Events() {
   return (
-    <SectionWrap id="su-kien">
+    <SectionWrap id="su-kien" className="bg-secondary">
       <div className="container w-full flex flex-col items-center gap-4">
         <TypographyH2 className="w-full max-w-[600px] text-center">
           Sự kiện

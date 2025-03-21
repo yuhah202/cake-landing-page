@@ -6,7 +6,7 @@ import GoogleMapComponent from "./GoogleMap";
 
 function Footer() {
   return (
-    <footer className="w-full py-[5rem]">
+    <footer className="w-full py-[5rem] bg-secondary">
       <div className="container w-full grid grid-cols-3 gap-x-6">
         <div className="col-span-1 flex flex-col gap-y-4">
           <div className="relative w-full max-w-[40%] aspect-square">

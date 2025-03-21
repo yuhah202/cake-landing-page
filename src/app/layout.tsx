@@ -27,7 +27,7 @@ export default function RootLayout({
       <body
         className={cn(
           openSans.variable,
-          "antialiased bg-background w-full min-h-screen h-[2000px]"
+          "antialiased bg-background w-full min-h-screen"
         )}
       >
         {children}
