@@ -25,28 +25,23 @@ export const SOCIALS = [
 export const NAVIGATES = [
   {
     id: uuidv4(),
-    text: "Menu",
-    href: "#menu",
+    text: "Giới thiệu",
+    href: "#gioi-thieu",
+  },
+  {
+    id: uuidv4(),
+    text: "Dịch vụ",
+    href: "#dich-vu",
   },
   {
     id: uuidv4(),
     text: "Sự kiện",
-    href: "#event",
+    href: "#su-kien",
   },
   {
     id: uuidv4(),
-    text: "Các đánh giá",
-    href: "#rating",
-  },
-  {
-    id: uuidv4(),
-    text: "Liên hệ",
-    href: "#contact-us",
-  },
-  {
-    id: uuidv4(),
-    text: "Về chúng tôi",
-    href: "#about-us",
+    text: "Các đánh giá & Đối tác",
+    href: "#danh-gia-va-doi-tac",
   },
 ];
 
@@ -74,5 +69,32 @@ export const STORE_INFORMATION = [
     label: "Email",
     icon: <Mails />,
     desc: "skeleton1522@gmail.com",
+  },
+];
+
+export const SERVICE_LIST = [
+  {
+    id: 1,
+    label: "Dịch vụ 1",
+    description: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. ",
+    background: "/images/fallback-image.jpg",
+  },
+  {
+    id: 2,
+    label: "Dịch vụ 2",
+    description: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. ",
+    background: "/images/fallback-image.jpg",
+  },
+  {
+    id: 3,
+    label: "Dịch vụ 3",
+    description: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. ",
+    background: "/images/fallback-image.jpg",
+  },
+  {
+    id: 4,
+    label: "Dịch vụ 4",
+    description: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. ",
+    background: "/images/fallback-image.jpg",
   },
 ];

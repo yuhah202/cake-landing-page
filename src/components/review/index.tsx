@@ -10,7 +10,7 @@ import Autoplay from "embla-carousel-autoplay";
 
 function ReviewSection() {
   return (
-    <SectionWrap className="bg-secondary">
+    <SectionWrap id="danh-gia-va-doi-tac">
       <div className="container w-full flex flex-col items-center gap-10">
         <TypographyH2 className="w-full max-w-[600px] text-center">
           Các đánh giá & Đối tác
